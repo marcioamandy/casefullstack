@@ -1,0 +1,16 @@
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.deps.json
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/CrossCutting.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Data.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Domain.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Service.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Domain.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Data.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Service.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csprojAssemblyReference.cache
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfoInputs.cache
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.AssemblyInfo.cs
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CoreCompileInputs.cache
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CopyComplete
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.pdb

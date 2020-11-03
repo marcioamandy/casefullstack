@@ -1,0 +1,15 @@
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/bin/Debug/netcoreapp3.1/Data.deps.json
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.json
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.dev.json
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/bin/Debug/netcoreapp3.1/Data.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/bin/Debug/netcoreapp3.1/Data.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csprojAssemblyReference.cache
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfoInputs.cache
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfo.cs
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CoreCompileInputs.cache
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.dll
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/obj/Debug/netcoreapp3.1/Data.genruntimeconfig.cache
