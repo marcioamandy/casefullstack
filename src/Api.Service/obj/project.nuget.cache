@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tNmO9/2xciW/VZ3Za6wIxLzSk9UKsoxd4awo/d/6Y51Y4US38d+P9ovEXoFjYBav5+robRBhWPIhv1TYtgflxQ==",
+  "dgSpecHash": "gk7hu3r56RZcqLY0SlJRDaPlWxOokxHLeQCty4qArNN7cDKbJr4F/83Xh88Re+mknHn48CzParLx06HBUjr8iA==",
   "success": true,
-  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Service/Service.csproj",
+  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Service/Service.csproj",
   "expectedPackageFiles": [
     "/Users/marcioamandy/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/marcioamandy/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

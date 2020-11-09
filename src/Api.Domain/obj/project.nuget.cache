@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BbYZQpcY5DFMS+TkyURhwEoBvzphcxxZZpok48MJJPEE5UDk4Pt33zQiYUnwxrGTsudaCXrR3t4eXOZwv2kCiQ==",
+  "dgSpecHash": "U1xjaRO7zVZahzzOzOOuF3m/BTAmp6FbUnCg8N0daHlNfhjk+YgVlIakB9CKB8I0GLWhTo/7VElO6vmI1sTe1w==",
   "success": true,
-  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Domain/Domain.csproj",
+  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/Domain.csproj",
   "expectedPackageFiles": [
     "/Users/marcioamandy/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/marcioamandy/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.8.0/microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",

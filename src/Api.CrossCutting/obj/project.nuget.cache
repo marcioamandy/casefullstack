@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LFv3QmWYYSwDA0y1DVA0EsxI29cBO5oshCESGDrK4k0IMtXVo+QeQqKIBBNFJJuCHEFU3xADqI1XPghmtCDzQQ==",
+  "dgSpecHash": "F3rGXzzr9lZ2KblBpxM+kL7wkrcZ8IqtUIykjnHTgb7AeHI6gZA/lUquGvwnKgaSfsZqZ0A4dn0QIXN6jMAB0Q==",
   "success": true,
-  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.CrossCutting/CrossCutting.csproj",
+  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [
     "/Users/marcioamandy/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/marcioamandy/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

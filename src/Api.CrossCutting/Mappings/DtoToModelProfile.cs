@@ -16,6 +16,42 @@ namespace Api.CrossCutting.Mappings
 
             CreateMap<UserModel, UserDtoUpdate>()
                 .ReverseMap();
+
+            CreateMap<SchoolModel, SchoolDto>()
+                .ReverseMap();
+
+            CreateMap<SchoolModel, SchoolDtoCreate>()
+                .ReverseMap();
+
+            CreateMap<SchoolModel, SchoolDtoUpdate>()
+                .ReverseMap();
+
+            CreateMap<ClassModel, ClassDto>()
+                .ReverseMap();
+
+            CreateMap<ClassModel, ClassDtoCreate>()
+                .ReverseMap();
+
+            CreateMap<ClassModel, ClassDtoUpdate>()
+                .ReverseMap();
+
+            CreateMap<StudentModel, StudentDto>()
+                .ReverseMap();
+
+            CreateMap<StudentModel, StudentDtoCreate>()
+                .ReverseMap();
+
+            CreateMap<StudentModel, StudentDtoUpdate>()
+                .ReverseMap();
+
+            CreateMap<ClassStudentModel, ClassStudentDto>()
+                .ReverseMap();
+
+            CreateMap<ClassStudentModel, ClassStudentDtoCreate>()
+                .ReverseMap();
+
+            CreateMap<ClassStudentModel, ClassStudentDtoUpdate>()
+                .ReverseMap();
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Application/application.csproj",
+  "FilePath": "/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Application/application.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14387,7 +14387,7 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 900
+    "CSharpLanguageVersion": 800
   },
   "RootNamespace": "application",
   "Documents": [],

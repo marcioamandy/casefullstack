@@ -4,13 +4,15 @@ namespace Api.Domain.Dtos.User
 {
     public class UserDtoCreate
     {
-        [Required(ErrorMessage = "Nome é campo obrigatório")]
-        [StringLength(60, ErrorMessage = "Nome deve ter no máximo {1} caracteres.")]
+        [Required(ErrorMessage = "Nome é campo obrigatório",AllowEmptyStrings=false)]
+        [StringLength(60, MinimumLength=4, ErrorMessage = "Nome deve ter no máximo {1} caracteres.")]
+        [Display(Name = "Informe o Nome")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Email é campo obrigatório")]
+        [Required(ErrorMessage = "E-mail é campo obrigatório",AllowEmptyStrings=false)]
         [EmailAddress(ErrorMessage = "E-mail em formato inválido.")]
-        [StringLength(100, ErrorMessage = "Email deve ter no máximo {1} caracteres.")]
+        [StringLength(100, MinimumLength=7, ErrorMessage = "E-mail deve ter no máximo {1} caracteres.")]
+        [Display(Name = "Informe o E-mail")]
         public string Email { get; set; }
     }
 }

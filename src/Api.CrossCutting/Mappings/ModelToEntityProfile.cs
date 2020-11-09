@@ -11,6 +11,18 @@ namespace Api.CrossCutting.Mappings
             CreateMap<UserEntity, UserModel>()
                 .ReverseMap();
 
+            CreateMap<SchoolEntity, SchoolModel>()
+                .ReverseMap();
+
+            CreateMap<ClassEntity, ClassModel>()
+                .ReverseMap();
+
+            CreateMap<StudentEntity, StudentModel>()
+                .ReverseMap();
+
+            CreateMap<ClassStudentEntity, ClassStudentModel>()
+                .ReverseMap();
+
         }
     }
 }

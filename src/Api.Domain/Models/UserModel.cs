@@ -42,7 +42,5 @@ namespace Api.Domain.Models
             set { _updateAt = value; }
         }
 
-
-
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9f+e9lHV443BXn+cuxfmhCxRGbkx6+rjVhi5z8GbHjslwsE5nLWE5rDOhKLRZ4HgEURteSE1u5nCyglzibJ1hg==",
+  "dgSpecHash": "/DpzyxBjXsvQWiBFBYjpaczNNGn+l7BM7kLUplLrxRXF0wkooXx4KFavFi949Ek3sB6jngpyeedvvL4rGBA1ww==",
   "success": true,
-  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Data/Data.csproj",
+  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Data/Data.csproj",
   "expectedPackageFiles": [
     "/Users/marcioamandy/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/marcioamandy/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

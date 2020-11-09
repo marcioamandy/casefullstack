@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fzaq75QgDIAebtAkL/9THxGKJ0l1b0aso+WOy791gZvTKqJk/acrJ+egE40l3rNdPdvEzWlBep0mv/HbYFMQMw==",
+  "dgSpecHash": "1TTP1kAPXKME2pi/3jfa/SO6SSO7gq6VJY7DCXikXYYctmT+1+wXw5sELEHcfUhxK2CNm+wIytQ1DkdutogXpQ==",
   "success": true,
-  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Application/application.csproj",
+  "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Application/application.csproj",
   "expectedPackageFiles": [
     "/Users/marcioamandy/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/marcioamandy/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
