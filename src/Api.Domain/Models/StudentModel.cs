@@ -1,3 +1,5 @@
+using System;
+
 namespace Api.Domain.Models
 {
     public class StudentModel
@@ -29,7 +31,7 @@ namespace Api.Domain.Models
             get { return _datebirth; }
             set { _datebirth = value; }
         }
-        
+
         private bool _status;
         public bool Status
         {

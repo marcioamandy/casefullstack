@@ -1,6 +1,8 @@
+using System;
+
 namespace Api.Domain.Models
 {
-    public class ClassStudent
+    public class ClassStudentModel
     {
         private Guid _id;
         public Guid Id
@@ -15,7 +17,7 @@ namespace Api.Domain.Models
             get { return _idclass; }
             set { _idclass = value; }
         }
-        
+
         private string _idstudent;
         public string IdStudent
         {

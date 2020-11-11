@@ -1,3 +1,5 @@
+using System;
+
 namespace Api.Domain.Models
 {
     public class ClassModel
@@ -16,8 +18,8 @@ namespace Api.Domain.Models
             set { _name = value; }
         }
 
-        private DateTime _daysweek;
-        public DateTime DaysWeek
+        private string _daysweek;
+        public string DaysWeek
         {
             get { return _daysweek; }
             set { _daysweek = value; }
@@ -43,7 +45,7 @@ namespace Api.Domain.Models
             get { return _idschool; }
             set { _idschool = value; }
         }
-        
+
         private bool _status;
         public bool Status
         {

@@ -1,3 +1,4 @@
+using System;
 using Api.Data.Context;
 using Api.Data.Implementations;
 using Api.Data.Repository;
@@ -14,18 +15,22 @@ namespace Api.CrossCutting.DependencyInjection
         {
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
-            serviceCollection.AddScoped<ISchoolRepository, SchoolImplementation>();
-            serviceCollection.AddScoped<IClassRepository, ClassImplementation>();
-            serviceCollection.AddScoped<IStudentRepository, StudentImplementation>();
-            serviceCollection.AddScoped<IClassStudentRepository, ClassStudentImplementation>();
 
             serviceCollection.AddDbContext<MyContext>(
-               options => options.UseMySql("Server=localhost;Port=3307;Database=dbAPI;Uid=root;Pwd=")
-            );
+               options => options.UseMySql("Server=localhost;Port=3307;Database=dbAPI;Uid=root;Pwd=",
+                mySqlOptionsAction: sqlOptions =>
+                {
+                    sqlOptions.EnableRetryOnFailure(
+                        maxRetryCount: 10,
+                        maxRetryDelay: TimeSpan.FromSeconds(30),
+                        errorNumbersToAdd: null);
+                }
+                )
 
             //serviceCollection.AddDbContext<MyContext>(
             //    options => options.UseSqlServer("Server=.\\SQLEXPRESS2017;Database=dbAPI;User Id=sa;Password=mudar@123")
-            //);
+            //
+            );
         }
     }
 }

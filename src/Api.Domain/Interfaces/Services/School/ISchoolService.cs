@@ -10,8 +10,8 @@ namespace Api.Domain.Interfaces.Services.School
     {
         Task<SchoolDto> Get(Guid id);
         Task<IEnumerable<SchoolDto>> GetAll();
-        Task<SchoolDtoCreateResult> Post(SchoolDtoCreate user);
-        Task<SchoolDtoUpdateResult> Put(SchoolDtoUpdate user);
+        Task<SchoolDtoCreateResult> Post(SchoolDtoCreate _school);
+        Task<SchoolDtoUpdateResult> Put(SchoolDtoUpdate _school);
         Task<bool> Delete(Guid id);
     }
 }

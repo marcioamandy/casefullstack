@@ -9,13 +9,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
 {
-
+    
     [Route("api/[controller]")]
     [ApiController]
-    public class ClassStudentsController : ControllerBase
+    public class ClassStudentController : ControllerBase
     {
         private IClassStudentService _service;
-        public ClassStudentsController(IClassStudentService service)
+        public ClassStudentController(IClassStudentService service)
         {
             _service = service;
         }
@@ -43,7 +43,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpGet]
-        [Route("{id}", Name = "GetWithId")]
+        [Route("{id}", Name = "GetClassStudentWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -64,7 +64,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] ClassStudentDtoCreate classstudent)
+        public async Task<ActionResult> Post([FromBody] ClassStudentDtoCreate _class)
         {
             if (!ModelState.IsValid)
             {
@@ -74,10 +74,13 @@ namespace Api.Application.Controllers
             try
             {
 
-                var result = await _service.Post(classstudent);
+                var result = await _service.Post(_class);
                 if (result != null)
                 {
-                    return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
+                    return Created(new Uri(Url.Link("GetClassStudentWithId", new
+                    {
+                        id = result.Id
+                    })), result);
                 }
                 else
                 {
@@ -93,7 +96,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] ClassStudentDtoUpdate classstudent)
+        public async Task<ActionResult> Put([FromBody] ClassStudentDtoUpdate _class)
         {
             if (!ModelState.IsValid)
             {
@@ -102,7 +105,7 @@ namespace Api.Application.Controllers
 
             try
             {
-                var result = await _service.Put(classstudent);
+                var result = await _service.Put(_class);
                 if (result != null)
                 {
                     return Ok(result);

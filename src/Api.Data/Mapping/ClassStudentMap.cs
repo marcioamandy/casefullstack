@@ -10,17 +10,22 @@ namespace Api.Data.Mapping
         {
             builder.ToTable("ClassStudent");
 
-            builder.HasKey(cs => cs.IdClass);
-            builder.HasKey(cs => cs.IdStudent);
+            // builder.HasKey(cs => cs.Id);
+            builder.HasKey(cs => new { cs.Id, cs.IdClass, cs.IdStudent });
+
+            // builder.HasIndex(cs => cs.IdClass)
+            //     .IsUnique();
 
             builder.Property(cs => cs.IdClass)
                 .IsRequired()
                 .HasMaxLength(36);
 
+            // builder.HasIndex(cs => cs.IdStudent)
+                // .IsUnique();
+
             builder.Property(cs => cs.IdStudent)
                 .IsRequired()
                 .HasMaxLength(36);
-
         }
     }
 }

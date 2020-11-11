@@ -43,7 +43,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpGet]
-        [Route("{id}", Name = "GetWithId")]
+        [Route("{id}", Name = "GetClassWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -64,7 +64,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] ClassDtoCreate class)
+        public async Task<ActionResult> Post([FromBody] ClassDtoCreate _class)
         {
             if (!ModelState.IsValid)
             {
@@ -74,10 +74,13 @@ namespace Api.Application.Controllers
             try
             {
 
-                var result = await _service.Post(class);
+                var result = await _service.Post(_class);
                 if (result != null)
                 {
-                    return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
+                    return Created(new Uri(Url.Link("GetClassWithId", new
+                    {
+                        id = result.Id
+                    })), result);
                 }
                 else
                 {
@@ -93,7 +96,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] ClassDtoUpdate class)
+        public async Task<ActionResult> Put([FromBody] ClassDtoUpdate _class)
         {
             if (!ModelState.IsValid)
             {
@@ -102,7 +105,7 @@ namespace Api.Application.Controllers
 
             try
             {
-                var result = await _service.Put(class);
+                var result = await _service.Put(_class);
                 if (result != null)
                 {
                     return Ok(result);

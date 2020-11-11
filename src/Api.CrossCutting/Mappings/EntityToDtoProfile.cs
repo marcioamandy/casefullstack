@@ -56,6 +56,7 @@ namespace Api.CrossCutting.Mappings
 
             CreateMap<ClassStudentDtoUpdateResult, ClassStudentEntity>()
                 .ReverseMap();
+
         }
     }
 }

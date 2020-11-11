@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Api.Domain.Dtos.Student;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
-using Api.Domain.Interfaces.Services.Student
+using Api.Domain.Interfaces.Services.Student;
 using Api.Domain.Models;
 using AutoMapper;
 

@@ -7,7 +7,12 @@
 /Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
 /Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.dll
 /Applications/XAMPP/xamppfiles/htdocs/CursoApiNetCore/Curso_Api_Net_Core/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/bin/Debug/netcoreapp3.1/Domain.pdb
 /Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
 /Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
 /Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
 /Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/Applications/XAMPP/xamppfiles/htdocs/CaseFullStackDeveloperNetCore/casefullstack/src/Api.Domain/obj/Debug/netcoreapp3.1/Domain.pdb

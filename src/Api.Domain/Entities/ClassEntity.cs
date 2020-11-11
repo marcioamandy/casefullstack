@@ -13,7 +13,7 @@ namespace Api.Domain.Entities
         public DateTime DateEnd { get; set; }
 
         public String IdSchool { get; set; }
-        
+
         public bool Status { get; set; }
     }
 }

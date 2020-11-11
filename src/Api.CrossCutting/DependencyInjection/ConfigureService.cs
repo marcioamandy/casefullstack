@@ -17,7 +17,7 @@ namespace Api.CrossCutting.DependencyInjection
             serviceCollection.AddTransient<ISchoolService, SchoolService>();
             serviceCollection.AddTransient<IClassService, ClassService>();
             serviceCollection.AddTransient<IStudentService, StudentService>();
-            serviceCollection.AddTransient<IClassStudentService, ClassStudentyService>();
+            serviceCollection.AddTransient<IClassStudentService, ClassStudentService>();
         }
     }
 }

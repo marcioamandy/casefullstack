@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Api.Domain.Dtos.Class;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
-using Api.Domain.Interfaces.Services.Class
+using Api.Domain.Interfaces.Services.Class;
 using Api.Domain.Models;
 using AutoMapper;
 
@@ -37,18 +37,18 @@ namespace Api.Service.Services
             return _mapper.Map<IEnumerable<ClassDto>>(listEntity);
         }
 
-        public async Task<ClassDtoCreateResult> Post(ClassDtoCreate class)
+        public async Task<ClassDtoCreateResult> Post(ClassDtoCreate _class)
         {
-            var model = _mapper.Map<ClassModel>(class);
+            var model = _mapper.Map<ClassModel>(_class);
             var entity = _mapper.Map<ClassEntity>(model);
             var result = await _repository.InsertAsync(entity);
 
             return _mapper.Map<ClassDtoCreateResult>(result);
         }
 
-        public async Task<ClassDtoUpdateResult> Put(ClassDtoUpdate class)
+        public async Task<ClassDtoUpdateResult> Put(ClassDtoUpdate _class)
         {
-            var model = _mapper.Map<ClassModel>(class);
+            var model = _mapper.Map<ClassModel>(_class);
             var entity = _mapper.Map<ClassEntity>(model);
             var result = await _repository.UpdateAsync(entity);
 

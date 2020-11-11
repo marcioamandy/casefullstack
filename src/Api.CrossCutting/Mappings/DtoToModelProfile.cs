@@ -1,3 +1,7 @@
+using Api.Domain.Dtos.Class;
+using Api.Domain.Dtos.School;
+using Api.Domain.Dtos.Student;
+using Api.Domain.Dtos.ClassStudent;
 using Api.Domain.Dtos.User;
 using Api.Domain.Models;
 using AutoMapper;
